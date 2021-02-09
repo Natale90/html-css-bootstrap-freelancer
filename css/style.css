@@ -20,52 +20,16 @@ nav{
   /* height:100px; */
 }
 
-.nav_left, .nav_right{
-  height: 50px;
-  line-height: 50px;
-  background-color: blue;
-  padding: none;
-}
-
-header nav ul li{
-  list-style-type: none;
-  display: inline-block;
-  margin: 0 30px;
-  font-weight: bold;
-  font-size: 2rem;
-
-}
-
-header .nav_left a{
-  text-decoration: none;
-  font-size: 3rem;
-  color:white;
-  font-weight: bold;
-}
-
-header .nav_right{
-  text-align: right;
-}
-
-header nav ul li a{
-  text-decoration: none;
-  color:white;
-}
-
 .fl_jumbotron, #about{
   background-color: #1abc9c !important;
   /* debug */
   height: 500px;
+  padding-top: 100px;
 }
 
-/* JUMBOTRON STRATS HERE */
 
-.jumbo_col{
-  text-align: center;
-  color: white;
-  background-color: blue;
-  border-radius: 10px;
-}
+
+
 
 /* PORFOLIO SECTION */
 .section_title{
