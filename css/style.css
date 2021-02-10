@@ -110,7 +110,7 @@ nav .nav_right #navbar_menu li a{
 }
 
 .fl_jumbotron img{
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
 }
 
@@ -144,13 +144,52 @@ nav .nav_right #navbar_menu li a{
   text-align: center;
 }
 
+#portfolio img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
+.card_content{
+  margin: 10px 0;
+  position: relative;
+}
+
+.fl_layover{
+  position: absolute;
+  top:0;
+  right: 0;
+  left:0;
+  bottom:0;
+  background-color: #1abc9c;
+  border-radius: 10px;
+  display: none;
+
+}
+
+.card_content .fas.fa-plus{
+  font-size: 8rem;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display:none;
+
+}
+
+.card_content:hover .fl_layover,
+.card_content:hover .fas.fa-plus{
+  display:block;
+}
 /* CONTACT SECTION */
 form{
   width: 100%;
   /* debug */
   height: 500px;
   border: 1px solid black;
+  display: none;
 }
 
 /* FOOTER */
