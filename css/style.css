@@ -55,14 +55,6 @@ nav .nav_right #navbar_menu li a{
   font-size: 2rem;
 }
 
-/* .glyphicon-menu-hamburger{
-  border: 1px solid #1abc9c;
-  padding:10px 15px;
-  border-radius: 10px;
-  font-size: 30px;
-  color:#1abc9c;
-} */
-
 .humburgher_menu{
   display:inline-block;
   border: 1px solid #1abc9c;
@@ -76,7 +68,7 @@ nav .nav_right #navbar_menu li a{
   width: 30px;
   border: 1px solid #1abc9c;
   color:#1abc9c;
-  margin: 6px 0;
+  margin: 6px auto;
 }
 
 .humburgher_menu:hover{
@@ -92,10 +84,16 @@ nav .nav_right #navbar_menu li a{
     display:none;
   }
 
-  .hamburger_menu{
+  .humburgher_menu{
     display: block;
+    width: 60px;
+    float: right;
+
   }
 }
+
+
+
 
 /* Jumbotron istrustions */
 .fl_jumbotron, #about{
@@ -113,10 +111,14 @@ nav .nav_right #navbar_menu li a{
   max-width: 250px;
   height: auto;
 }
-
-.Jumbo_content .starline{
+/* ----------------------------------------------- */
+ .starline{
   display: inline-block;
   width: 40%;
+
+}
+
+.Jumbo_content .starline{
   border:2px solid white;
 }
 
@@ -126,7 +128,7 @@ nav .nav_right #navbar_menu li a{
   font-weight: bold;
 }
 
-.fas.fa-star{
+.Jumbo_content .fas.fa-star{
   color: white;
   font-size: 2rem;
 }
@@ -137,17 +139,31 @@ nav .nav_right #navbar_menu li a{
   margin: 15px 0;
 
 }
-
+/* ----------------------------------------------- */
 
 /* PORFOLIO SECTION */
-.section_title{
+.section_title_content{
   text-align: center;
+}
+
+.section_title{
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 #portfolio img{
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+#portfolio .starline{
+   border:2px solid #000;
+}
+
+#portfolio .fas.fa-star{
+  color: #000;
+  font-size: 2rem;
 }
 
 .card_content{
@@ -183,6 +199,8 @@ nav .nav_right #navbar_menu li a{
 .card_content:hover .fas.fa-plus{
   display:block;
 }
+
+
 /* CONTACT SECTION */
 form{
   width: 100%;
